@@ -38,7 +38,7 @@ version: latest
 namespace: chembord
 
 image:
-  repository: ghcr.io/sdsc-ordes/catplus-chembord
+  repository: ghcr.io/swisscatplus/catplus-chembord
   tag: latest
   pullPolicy: Always
 

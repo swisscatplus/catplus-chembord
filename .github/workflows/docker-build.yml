@@ -40,5 +40,5 @@ jobs:
           # Only push the image if the event is a 'push' (to main or a tag).
           push: ${{ github.event_name == 'push' }}
           tags: |
-            ghcr.io/sdsc-ordes/catplus-chembord:latest
-            ghcr.io/sdsc-ordes/catplus-chembord:${{ github.sha }}
+            ghcr.io/swisscatplus/catplus-chembord:latest
+            ghcr.io/swisscatplus/catplus-chembord:${{ github.sha }}
