@@ -4,7 +4,7 @@ root_dir := `git rev-parse --show-toplevel`
 ctr := env("CTR", "podman")
 
 version := env("VERSION", "latest")
-image := "ghcr.io/sdsc-ordes/catplus-chembord:" + version
+image := "ghcr.io/swisscatplus/catplus-chembord:" + version
 image_dir := root_dir + "/tools/image"
 
 # Default recipe to list all recipes.
