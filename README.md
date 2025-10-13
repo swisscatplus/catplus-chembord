@@ -66,3 +66,6 @@ And deployed with
 ```bash
 just manifests deploy
 ```
+
+## Improvements
+
