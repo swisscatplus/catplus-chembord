@@ -69,3 +69,8 @@ just manifests deploy
 
 ## Improvements
 
+- CHEMBORD UI Evaluation: laege-scale user testing
+- Introduction RO-Crate packaging option
+- Link to the downloadable campaign report
+- User data contribution forms
+- SPARQL documentation
