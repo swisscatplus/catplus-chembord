@@ -45,7 +45,7 @@ run: build
 
 # Run the local development server
 local:
-    pnpm dev
+    set -a && source .env && set +a && pnpm dev
 
 # For debugging the environment variable
 check-env:
